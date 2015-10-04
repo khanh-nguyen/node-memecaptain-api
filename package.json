@@ -1,0 +1,19 @@
+{
+  "name": "node-memecaptain-api",
+  "version": "1.0.0",
+  "description": "Rest API for MemeCaptain in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no test'"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "api",
+    "rest",
+    "meme",
+    "memcaptain"
+  ],
+  "author": "khanh.nguyen <khanh.nguyen@opower.com>",
+  "license": "ISC"
+}
