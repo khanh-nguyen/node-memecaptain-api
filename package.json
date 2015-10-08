@@ -4,7 +4,7 @@
   "description": "Rest API for MemeCaptain in NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'no test'"
+    "test": "node test/* | tap-spec"
   },
   "keywords": [
     "node",
@@ -15,5 +15,14 @@
     "memcaptain"
   ],
   "author": "khanh.nguyen <khanh.nguyen@opower.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "q": "^1.4.1",
+    "request": "^2.64.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.1"
+  }
 }
