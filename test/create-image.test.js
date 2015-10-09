@@ -3,13 +3,12 @@
 var createImage = require('../lib/create-image'),
     test = require('tape');
 
-test('createImage', function(t) {
+test('createMeme', function(t) {
     t.test('create an image from single source', function(t) {
         t.plan(2);
 
         createImage('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png', 'google logo').
             then(function(result) {
-                console.log('The result', result);
                 t.equal(result.id.length, 6, 'creates a source image with valid id.');
                 t.equal(result.name, 'google logo', 'uses the given name for the image.');
             }, function(err) {
