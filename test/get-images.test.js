@@ -33,7 +33,7 @@ test('getImagePage', function(t) {
             t.equal(result.page, 1, 'sets page=1.');
         }, function(err) {
             t.fail('Fail to get images ' + err);
-            t.fail('Fail to search when page = ' + page);
+            t.fail('Fail to search when page is not a number.');
         });
     });
 });

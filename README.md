@@ -8,7 +8,8 @@ var captainApi = require('node-memecaptain-api');
 var {ids: ids, page: offsetPage} = captainApi.getImagePage('search term', offsetPage=1);
 
 // get an array of `maxCount` source image ids, offset from page `offsetPage`
-var {ids: ids, page: offsetPage} = captainApi.getImages('search term', maxCount=20, offsetPage=1);
+var {ids: ids, page: offsetPage} = 
+    captainApi.getImages('search term', maxCount=20, offsetPage=1);
 
 // create meme given image source
 var memeUrl = captainApi.createMeme('sourceImageId', 'top text', 'bottom text')
