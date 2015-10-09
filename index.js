@@ -1,8 +1,13 @@
 'use strict';
 
-var captainApi = {},
-    getImages = require('./lib/getImages');
+var createImage = require('./lib/create-image'),
+    createMeme = require('./lib/create-meme'),
+    getImagePage = require('./lib/get-images').getImagePage,
+    getImages = require('./lib/get-images').getImages;
 
-captainApi.prototype.getImages = getImages;
-
-
+module.exports = {
+    getImages: getImages,
+    getImagePage: getImagePage,
+    createImage: createImage,
+    createMeme: createMeme
+};
