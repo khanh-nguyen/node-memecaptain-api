@@ -9,7 +9,7 @@ test('createMeme', function(t) {
 
         captainApi.createMeme('rQ2j6g', 'test meme', 'generator').
             then(function(link) {
-                t.equal(/^http:\/\/memecaptain\.com\/pending_gend_images\/.{6}/.test(link), true, 'generates image.');
+                t.equal(/^http:\/\/memecaptain\.com\/gend_images\/.{6}/.test(link), true, 'generates image.');
             }, function(err) {
                 t.fail('Fail to create image ' + err);
             });
