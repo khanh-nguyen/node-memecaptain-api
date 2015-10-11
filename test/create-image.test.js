@@ -29,6 +29,6 @@ test('createMeme', function(t) {
                 true,
                 'Rejects if passed invalid url'
             );
-        })
+        });
     })
 });

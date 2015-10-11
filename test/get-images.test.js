@@ -59,7 +59,7 @@ test('getImages', function(t) {
             t.equal(result.page < 3, true, 'resolve when no new data is retrieved.');
         }, function(err) {
             t.fail('getImages was rejected ' + err);
-        })
+        });
     });
 });
 
