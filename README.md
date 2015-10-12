@@ -1,4 +1,4 @@
-# MemeCaptain API [![NPM version](https://img.shields.io/npm/v/node-memecaptain-api.svg?style=flat-square)](https://www.npmjs.com/package/node-meme-captain-api) [![NPM download count](https://img.shields.io/npm/dm/node-memecaptaion-api.svg?style=flat-square)](https://www.npmjs.com/package/node-memecaptain-api)
+# MemeCaptain API [![NPM version](https://img.shields.io/npm/v/node-memecaptain-api.svg?style=flat-square)](https://www.npmjs.com/package/node-meme-captain-api) [![NPM download count](https://img.shields.io/npm/dm/node-memecaptain-api.svg?style=flat-square)](https://www.npmjs.com/package/node-memecaptain-api)
 
 ## Usage
 ```
