@@ -1,6 +1,6 @@
 {
   "name": "node-memecaptain-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Rest API for MemeCaptain in NodeJS",
   "main": "index.js",
   "scripts": {
