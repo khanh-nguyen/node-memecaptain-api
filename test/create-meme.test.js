@@ -4,16 +4,17 @@ var captainApi = require('..'),
     test = require('tape');
 
 test('createMeme', function(t) {
-    t.test('create meme from an existing source', function(t) {
-        t.plan(1);
-
-        captainApi.createMeme('rQ2j6g', 'test meme', 'generator').
-            then(function(link) {
-                t.equal(/^http:\/\/memecaptain\.com\/gend_images\/.{6}/.test(link), true, 'generates image.');
-            }, function(err) {
-                t.fail('Fail to create image ' + err);
-            });
-    });
+//    NOTE: comment this test out to not waste resource on memecaptain.com
+//    t.test('create meme from an existing source', function(t) {
+//        t.plan(1);
+//
+//        captainApi.createMeme('rQ2j6g', 'test meme', 'generator').
+//            then(function(link) {
+//                t.equal(/^http:\/\/memecaptain\.com\/gend_images\/.{6}/.test(link), true, 'generates image.');
+//            }, function(err) {
+//                t.fail('Fail to create image ' + err);
+//            });
+//    });
 
     t.test('not existing image', function(t) {
         t.plan(1);
